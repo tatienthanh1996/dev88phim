@@ -22,5 +22,11 @@
     "files": [
       "static/chunks/node_modules_cross-fetch_dist_browser-ponyfill_js.js"
     ]
+  },
+  "..\\components\\WatchView\\index.tsx -> ./Player": {
+    "id": "..\\components\\WatchView\\index.tsx -> ./Player",
+    "files": [
+      "static/chunks/src_components_WatchView_Player_tsx.js"
+    ]
   }
 }
