@@ -3,10 +3,10 @@
     "version": "0.1.0",
     "private": true,
     "homepage": "https://tatienthanh1996.github.io/dev88phim/",
-    "main": "server.js",
+    "main": "build/server/pages/_app.js",
     "scripts": {
         "predeploy": "npm run build && gh-pages -d build",
-        "deploy": "react-scripts build",
+        "deploy": "next build",
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
