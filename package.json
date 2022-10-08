@@ -4,8 +4,8 @@
     "private": true,
     "homepage": "https://tatienthanh1996.github.io/dev88phim/",
     "scripts": {
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "predeploy": "npm run build && gh-pages -d build",
+        "deploy": "react-scripts build",
         "dev": "next dev",
         "build": "next build",
         "start": "next start",
