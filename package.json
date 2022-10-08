@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "homepage": "https://tatienthanh1996.github.io/dev88phim/",
+    "main": "server.js",
     "scripts": {
         "predeploy": "npm run build && gh-pages -d build",
         "deploy": "react-scripts build",
@@ -10,7 +11,8 @@
         "build": "next build",
         "start": "next start",
         "lint": "next lint",
-        "analyze": "ANALYZE=true next build"
+        "analyze": "ANALYZE=true next build",
+        "export": "next export"
     },
     "dependencies": {
         "@ducanh2912/react-hls-player": "3.2.2",
