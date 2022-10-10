@@ -9,7 +9,7 @@ const nextConfig = {
     swcMinify: true,
 };
 
-// module.exports = withSuperjson()(withAnalyzer(nextConfig));
-module.exports = {
-    distDir: 'build',
-}
+module.exports = withSuperjson()(withAnalyzer(nextConfig));
+// module.exports = {
+//     distDir: 'build',
+// }
